@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&family=Shadows+Into+Light&display=swap');
+
+body{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+
+
+}
+
+    
+button{
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: rgb(57, 82, 63);
+    color:  aliceblue;
+}
+ul{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+}
+
+li{
+    margin: 0 15px;
+}
+
+ header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+    color: aliceblue;
+}
+
+nav p{
+    font-weight: bold;
+    font-size:x-large;
+    color: rgb(247, 247, 247);
+}
+
+header{
+    height: calc(100vh - 150px);
+    background: no-repeat center/cover url("img/kristaps-ungurs-6KtITtBqhdE-unsplash.jpg ");
+    
+}
+
+.header-content{
+    max-width: 400px;
+    color: aliceblue;
+    margin: 50px auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.header-content h1{
+    margin-bottom: 10px;
+
+}
+.tema{
+    background: rgb(216, 216, 216);
+    padding: 15px;
+    }
+
+.tema .tema-cards{
+    display: flex;
+    margin:auto;
+    flex-wrap: wrap;
+justify-content: center;
+}
+
+.tema .tema-title{
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.tema .card{
+    width: 250px;
+    height: 400px;
+    background: rgb(223, 223, 223);
+    border-radius: 24px 0px;
+    margin: 25px;
+    position: relative;
+   
+}
+
+.tema .card-img{
+    width: 250px;
+    height: 300px;
+    border-radius: 24px 0 0 0;
+
+}
+
+.tema .card-content{
+    padding: 0 15px;
+}
+.tema .card-content ul{
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0px;
+}
+   
+.tema .card-content ul li{
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    margin:5px 0 ;
+}
+
+.tema .card-content li svg{
+    width: 18px; 
+    height: 18px;
+    margin-right: 10px;
+    
+}
+.tema .card-content h1{
+    font-size: 1rem;
+  
+}
+
+.tema .card .card-tag-top{
+position:absolute;
+right:0;
+top:15px;
+background: rgb(219, 131, 80);
+border-radius: 8px 0 0 8px;
+padding: 2px 4px;
+}
+
+.tema .card .card-tag-bottom{
+    position:absolute;
+    left:0;
+    
+    bottom: 100px;
+    background: rgb(247, 237, 109);
+    border-radius: 0px 8px 8px 0px;
+    padding: 5px 10px;
+}
+.tema .card .card-tag{
+    margin: 0;
+    font-size: .8rem;
+    color: rgb(22, 22, 22);
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVIDADE*/
+/*Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  
+}
+
+/*Landscape phones and down */
+@media (max-width: 480px) {
+   
+        header nav ul{
+            position: absolute;
+            bottom:0;
+            left:0;
+
+        }
+    }
+
+
+
+/* Portrait tablet to landscape and desktop*/
+/*@media (min-width: 768px) and (max-width:979px){
+
+}
+
+/* Large desktop */
+/*@media(min-width:1200px){
+   
+}

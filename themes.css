@@ -1,0 +1,94 @@
+*{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5%;
+
+}
+
+.contaiter{
+    background: rgb(12, 12, 12);
+}
+
+.contaiter .heading{
+    font-size: 3rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #fff;
+}
+
+.contaiter .music-contaiter{
+        display: flex;
+        align-items: center;
+        flex-flow:column;
+
+}
+
+.contaiter .music-contaiter .box{
+    height: 16rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    box-shadow: 0 .5rem 1rem #000;
+    margin: 1rem;
+        
+
+}
+
+.contaiter .music-contaiter .box .image{
+    height: 100%;
+    width:25%;
+    display:flex;
+    align-items: center;
+    overflow: hidden;
+
+
+}
+
+.contaiter .music-contaiter .box .image img{ 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+
+
+}
+
+.contaiter .music-contaiter .box .music{
+width:75%;
+}
+
+.contaiter .music-contaiter .box .music audio{
+width: 100%;
+outline: none;
+}
+
+.contaiter .music-contaiter .box .music audio::-webkit-media-controls-eclosure{
+    background: none;
+    }
+    
+@media (max-width:600px){
+    .contaiter .music-contaiter .box{
+        height: 27rem;
+        width:90%;
+        flex-flow: column;
+    }
+
+    .contaiter .music-contaiter .box .image{
+        height: 80%;
+        width:100%;
+
+    }
+
+    .contaiter .music-contaiter .box .music{
+        height: 20%;
+        width:100%;
+        
+    }
+
+}

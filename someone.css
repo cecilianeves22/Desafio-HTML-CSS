@@ -1,0 +1,91 @@
+.gradient{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background:linear-gradient(45deg,#2b580c, #639a67, #d8ebb5, #d9bf77);
+    background-size:300%, 300%;
+    animation: colors 10s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    width: 100vw;
+
+    
+}
+@keyframes colors{
+    0%{
+         background-position: 0% 50%;
+    }
+
+    50%{
+         background-position: 100% 50%;
+    }
+
+    100%{
+         background-position: 0% 50%;
+    }
+}
+
+.text{
+    font-family: "RockSalt", sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    padding: 2rem 4rem;
+ 
+}
+
+
+
+    
+@font-face {
+    font-family:"RockSalt" ;
+    src:url(../RockSalt-Regular.ttf);
+    font-weight: 600;
+   
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(BebasNeue-Regular.ttf);
+}
+h1{
+    font-family: "RockSalt";
+    padding: 200px;
+    padding-left: 20px;
+    
+}
+
+p{
+    max-width: 400px;
+    margin: 150px auto;
+    position:absolute;
+    bottom: 0;
+    text-align:center;
+  margin-top:auto;
+  font-family:'BebasNeue', Courier, monospace;
+  font-size: larger;
+  height: 400px;
+  color: rgb(0, 0, 0);
+
+ }
+
+button{
+   padding: 10px 15px;
+   border-radius: 8px;
+   position:absolute;
+   background: #375c35;
+   border: 0;
+   color: aliceblue;
+   text-transform: uppercase;
+   cursor: pointer;}
+  
+    
+
+  
+
+
+
+

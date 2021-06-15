@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">"
+        <title>Movies and Series</title>
+        <link rel="stylesheet" href="movies.css">
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+    <body>
+
+
+
+
+<div class="container">
+
+
+<div class="heading">Filmes e Séries</div>
+
+        
+         <div class="video-container">
+        <div class="video">
+           <video src="video/Harry Potter e a Pedra Filosofal (TRAILER EM HD)_360P (online-video-cutter.com).mp4">
+        </div>
+
+        <div class="video">
+            <video src="video/Harry Potter and the Prisoner of Azkaban Official Trailer 1 - (2004) HD_360P (online-video-cutter.com).mp4">
+         </div>
+
+         <div class="video">
+            <video src="video/Harry Potter and the Order of the Phoenix (2007) Official Trailer - Daniel Radcliffe Movie HD_360P (online-video-cutter.com).mp4">
+         </div>
+
+         <div class="video">
+            <video src="video/Harry Potter and the Half Blood Prince (2009) Official Trailer - Daniel Radcliffe Movie HD_360P (online-video-cutter.com).mp4">
+         </div>
+
+         <div class="video">
+            <video src="video/Harry Potter and the Goblet of Fire (2005) Official Trailer - Daniel Radcliffe Movie HD_360P (online-video-cutter.com).mp4">
+         </div>
+
+         <div class="video">
+            <video src="video/Harry Potter and the Deathly Hallows_ Part 1 Official Trailer 1 - (2010) HD_360P (online-video-cutter.com).mp4">
+         </div>
+
+         <div class="video">
+            <video src="video/_Harry Potter and the Deathly Hallows - Part 2 Trailer 2_360P (online-video-cutter.com).mp4">
+         </div>
+
+         <div class="video">
+            <video src="video/Iron Man (2008) Trailer 1 Movieclips Classic Trailers_360P (online-video-cutter.com).mp4">
+         </div>
+         <div class="video">
+          <video src="video/The Devil Wears Prada (2006) Trailer 1 Movieclips Classic Trailers_360P (online-video-cutter.com).mp4">
+       </div>
+
+       <div class="video">
+        <video src="video/Captain America Avengers Assemble Scene - Portal Scene - Avengers _ Endgame (2019) Scene_360P (online-video-cutter.com).mp4">
+     </div>
+
+          <script>  
+
+            var video = document.querySelectorAll('video')
+        
+            video.forEach(play => play.addEventListener('click', () => {
+                play.classList.toggle('active');
+                
+                if(play.paused){
+                    play.play();
+                }else{
+                    play.pause();
+                    play.currentTime = 0
+                }
+            }));
+          </script>
+
+          </div>
+          </div>
+          </body>
+          </html>

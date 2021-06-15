@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&family=Shadows+Into+Light&display=swap');
+
+body{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+
+
+}
+
+
+
+ul{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+}
+
+li{
+    margin: 0 15px;
+}
+
+ header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+    color: aliceblue;
+}
+
+nav p{
+    font-weight: bold;
+    font-size:x-large;
+    color: rgb(247, 247, 247);
+}
+
+header{
+    height: calc(100vh - 150px);
+    background: no-repeat center/cover url("img/pedro-kummel-RmSpyCERiH4-unsplash.jpg");
+    
+}
+
+.header-content{
+    max-width: 400px;
+    color: aliceblue;
+    margin: 50px auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.header-content h1{
+    margin-bottom: 10px;
+
+}
+.tema{
+    background: rgb(8, 8, 8);
+    padding: 15px;
+    }
+
+
+    .tema .card-img{
+        width: 250px;
+        height: 300px;
+       text-align: center;
+       justify-items: center;
+       margin-left: 40px;
+       margin-bottom: 20px;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVIDADE*/
+/*Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  
+}
+
+/*Landscape phones and down */
+@media (max-width: 480px) {
+   
+        header nav ul{
+            position: absolute;
+            bottom:0;
+            left:0;
+
+        }
+    }
+
+
+
+/* Portrait tablet to landscape and desktop*/
+/*@media (min-width: 768px) and (max-width:979px){
+
+}
+
+/* Large desktop */
+/*@media(min-width:1200px){
+   
+}
